@@ -1,0 +1,75 @@
+$green1:#00A187;
+$green2: #7ABE8F;
+$green3: #BFDD9D;
+$yellow: #FEE111;
+$orange: #F1623D;
+$grey1: #1C1D1D;
+
+.container {
+	text-align:center;
+	margin:0 auto;
+	padding:0 20px;
+}
+
+svg {
+	height:100vh;
+	width:100%;
+	overflow:visible;
+}
+
+.text-headline {
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-family:"averta";
+	font-weight:500; 
+	font-size:65px;
+	line-height: 1em;
+	fill:$green1;
+}
+
+.subhead {
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:"averta";
+	font-weight:100; 
+	font-size:40px;
+	line-height: 1em;
+	fill:$green1;	
+}
+
+
+.hidden {
+	visibility: hidden;
+}
+
+.stroked {
+	fill:white;
+	stroke:$green1;
+	stroke-width:8;
+	stroke-miterlimit:10;
+	outline: 1px solid transparent;
+}
+
+.outlined {
+	fill:none;
+	stroke:$green1;
+	stroke-width:8;
+	stroke-miterlimit:10;
+	outline: 1px solid transparent;
+}
+
+.filled {
+	fill:$green1;
+	stroke:none;
+	outline: 1px solid transparent;
+}
+
+.down-arrow {
+	fill:none;
+	stroke:$yellow;
+	stroke-width:4;
+	stroke-miterlimit:10;
+	outline: 1px solid transparent;
+}
